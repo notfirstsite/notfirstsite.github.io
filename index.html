@@ -14,6 +14,7 @@
 
 		<title>Not first my site))))</title>
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 </head>
 
@@ -23,12 +24,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-7">
-				<img class="header-img" src="img/main-img.png" alt="Монитор">
+				<img class="header-img wow fadeInLeftBig" src="img/main-img.png" alt="Монитор">
 			</div>
-			<div class="col-lg-5">
-				<p class="header-pretitle">Веб-разработчик</p>
-				<h1 class="header-title">Артем Кудрявцев</h1>
-				<p class="header-subtitle">Верстка на HTML/CSS
+			<div class="col-lg-5 wow fadeInRightBig">
+				<p class="header-pretitle" data-wow-delay="0.1s">Веб-разработчик</p>
+				<h1 class="header-title" data-wow-delay="0.2s">Артем Кудрявцев</h1>
+				<p class="header-subtitle" data-wow-delay="0.3s">Верстка на HTML/CSS
 <br/>Разработка сайтов под ключ</p>
 <div class="hbb"><a href="https://vk.me/with_cash" class="header-button">Связаться</a>
 <small>*Это бесплатно</small></div>
@@ -78,10 +79,10 @@
 				<p class="footer-text">Разработка сайтов под ключ</p></div>
 			<div class="col-md-4"><div class="social">
 			<p>Подпишитесь:</p>
-			<a href="#"><img src="img/facebook-logo-button.png" alt=""></a>
-			<a href="#"><img src="img/telegram-symbol.png" alt=""></a>
-			<a href="#"><img src="img/vk-social-logotype.png" alt=""></a>
-			<a href="#"><img src="img/youtube-symbol.png" alt=""></a>
+			<a href="#"><img class="wow bounceInUp"  src="img/facebook-logo-button.png" alt=""></a>
+			<a href="#"><img class="wow bounceInUp"  src="img/telegram-symbol.png" alt=""></a>
+			<a href="#"><img class="wow bounceInUp"  src="img/vk-social-logotype.png" alt=""></a>
+			<a href="#"><img class="wow bounceInUp"  src="img/youtube-symbol.png" alt=""></a>
 			</div></div>
 			<div class="col-md-4 footer-right">
 				<p class="cta">Напишите мне</p>
@@ -90,5 +91,8 @@
 		</div>
 	</div>
 </footer>
+<script src="wow.min.js"></script>
+	<script> new WOW().init();
+</script>
 </body>
 </html>
